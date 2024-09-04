@@ -1,6 +1,6 @@
 # backend-mocks
 
-## These mocks are for local development of (frontend-v3)[https://github.com/balancer/frontend-v3]
+## These mocks are for local development of [frontend-v3](https://github.com/balancer/frontend-v3)
 
 #### How to use ng-apimock:
 
