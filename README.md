@@ -17,6 +17,7 @@
 
 > **Note**: _watch_ is disabled by default, enable it by adding the option in _server.js_. Otherwise
 > you can refresh to get the updated or new mocks by stopping and starting ng-apimock.
+
 When ng-apimock is running the dev interface is available on http://localhost:9999/dev-interface/#/.
 Here you can choose between the different scenarios and/or presets that have been created
 beforehand.
