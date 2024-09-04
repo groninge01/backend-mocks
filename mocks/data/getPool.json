@@ -1,0 +1,247 @@
+{
+  "data": {
+    "pool": {
+      "id": "0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635",
+      "address": "0xdacf5fa19b1f720111609043ac67a9818262850c",
+      "name": "Balancer osETH/wETH StablePool",
+      "version": 5,
+      "owner": "0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b",
+      "decimals": 18,
+      "factory": "0xdb8d758bcb971e482b2c45f7f8a7740283a1bd3a",
+      "symbol": "osETH/wETH-BPT",
+      "createTime": 1701212579,
+      "type": "COMPOSABLE_STABLE",
+      "chain": "MAINNET",
+      "protocolVersion": 2,
+      "dynamicData": {
+        "poolId": "0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635",
+        "swapEnabled": true,
+        "totalLiquidity": "59763659.89",
+        "totalShares": "19233.570683997295793634",
+        "fees24h": "186.93",
+        "swapFee": "0.0001",
+        "volume24h": "1869321.12",
+        "holdersCount": "29",
+        "isInRecoveryMode": false,
+        "isPaused": false,
+        "aprItems": [
+          {
+            "id": "0xc592c33e51a764b94db0702d8baf4035ed577aed-SWISE-apr",
+            "title": "SWISE reward APR",
+            "apr": 0.02476606219373413,
+            "type": "STAKING",
+            "__typename": "GqlPoolAprItem"
+          },
+          {
+            "id": "0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635-osETH-yield-apr",
+            "title": "osETH APR",
+            "apr": 0.01241262718545359,
+            "type": "IB_YIELD",
+            "__typename": "GqlPoolAprItem"
+          },
+          {
+            "id": "0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635-swap-apr",
+            "title": "Swap fees APR",
+            "apr": 0.0005708336903242284,
+            "type": "SWAP_FEE",
+            "__typename": "GqlPoolAprItem"
+          }
+        ],
+        "__typename": "GqlPoolDynamicData"
+      },
+      "allTokens": [
+        {
+          "id": "0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "decimals": 18,
+          "isNested": false,
+          "isPhantomBpt": false,
+          "isMainToken": true,
+          "__typename": "GqlPoolTokenExpanded"
+        },
+        {
+          "id": "0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635-0xdacf5fa19b1f720111609043ac67a9818262850c",
+          "address": "0xdacf5fa19b1f720111609043ac67a9818262850c",
+          "name": "Balancer osETH/wETH StablePool",
+          "symbol": "osETH/wETH-BPT",
+          "decimals": 18,
+          "isNested": false,
+          "isPhantomBpt": true,
+          "isMainToken": false,
+          "__typename": "GqlPoolTokenExpanded"
+        },
+        {
+          "id": "0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635-0xf1c9acdc66974dfb6decb12aa385b9cd01190e38",
+          "address": "0xf1c9acdc66974dfb6decb12aa385b9cd01190e38",
+          "name": "Staked ETH",
+          "symbol": "osETH",
+          "decimals": 18,
+          "isNested": false,
+          "isPhantomBpt": false,
+          "isMainToken": true,
+          "__typename": "GqlPoolTokenExpanded"
+        }
+      ],
+      "displayTokens": [
+        {
+          "id": "0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "name": "Wrapped Ether",
+          "weight": null,
+          "symbol": "WETH",
+          "nestedTokens": null,
+          "__typename": "GqlPoolTokenDisplay"
+        },
+        {
+          "id": "0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635-0xf1c9acdc66974dfb6decb12aa385b9cd01190e38",
+          "address": "0xf1c9acdc66974dfb6decb12aa385b9cd01190e38",
+          "name": "Staked ETH",
+          "weight": null,
+          "symbol": "osETH",
+          "nestedTokens": null,
+          "__typename": "GqlPoolTokenDisplay"
+        }
+      ],
+      "staking": {
+        "id": "0xc592c33e51a764b94db0702d8baf4035ed577aed",
+        "type": "GAUGE",
+        "chain": "MAINNET",
+        "address": "0xc592c33e51a764b94db0702d8baf4035ed577aed",
+        "gauge": {
+          "id": "0xc592c33e51a764b94db0702d8baf4035ed577aed",
+          "gaugeAddress": "0xc592c33e51a764b94db0702d8baf4035ed577aed",
+          "version": 1,
+          "status": "PREFERRED",
+          "workingSupply": "11413.319563975722136013",
+          "otherGauges": [],
+          "rewards": [
+            {
+              "id": "0xc592c33e51a764b94db0702d8baf4035ed577aed-0xba100000625a3754423978a60c9317c58a424e3d",
+              "rewardPerSecond": "0.000000000000000000",
+              "tokenAddress": "0xba100000625a3754423978a60c9317c58a424e3d",
+              "__typename": "GqlPoolStakingGaugeReward"
+            },
+            {
+              "id": "0xc592c33e51a764b94db0702d8baf4035ed577aed-0x48c3399719b582dd63eb5aadf12a40b4c3f52fa2",
+              "rewardPerSecond": "1.901455026455026455",
+              "tokenAddress": "0x48c3399719b582dd63eb5aadf12a40b4c3f52fa2",
+              "__typename": "GqlPoolStakingGaugeReward"
+            }
+          ],
+          "__typename": "GqlPoolStakingGauge"
+        },
+        "aura": {
+          "id": "0x5f032f15b4e910252edaddb899f7201e89c8cd6b",
+          "apr": 0.0403,
+          "auraPoolAddress": "0x5f032f15b4e910252edaddb899f7201e89c8cd6b",
+          "auraPoolId": "179",
+          "isShutdown": false,
+          "__typename": "GqlPoolStakingAura"
+        },
+        "__typename": "GqlPoolStaking"
+      },
+      "userBalance": {
+        "totalBalance": "0",
+        "totalBalanceUsd": 0,
+        "walletBalance": "0",
+        "walletBalanceUsd": 0,
+        "stakedBalances": [],
+        "__typename": "GqlPoolUserBalance"
+      },
+      "amp": "200.0",
+      "nestingType": "NO_NESTING",
+      "bptPriceRate": "1.009003886145986817",
+      "poolTokens": [
+        {
+          "id": "0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "index": 0,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "balance": "11556.087887555544052844",
+          "balanceUSD": "35569291.83525934",
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "priceRate": "1.0",
+          "decimals": 18,
+          "weight": null,
+          "hasNestedPool": false,
+          "isAllowed": true,
+          "priceRateProvider": null,
+          "priceRateProviderData": null,
+          "nestedPool": null,
+          "__typename": "GqlPoolTokenDetail"
+        },
+        {
+          "id": "0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635-0xdacf5fa19b1f720111609043ac67a9818262850c",
+          "index": 1,
+          "name": "Balancer osETH/wETH StablePool",
+          "symbol": "osETH/wETH-BPT",
+          "balance": "2596148429267416.481441081936476885",
+          "balanceUSD": "0",
+          "address": "0xdacf5fa19b1f720111609043ac67a9818262850c",
+          "priceRate": "1.009003886145986817",
+          "decimals": 18,
+          "weight": null,
+          "hasNestedPool": true,
+          "isAllowed": true,
+          "priceRateProvider": null,
+          "priceRateProviderData": null,
+          "nestedPool": {
+            "id": "0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635",
+            "address": "0xdacf5fa19b1f720111609043ac67a9818262850c",
+            "type": "COMPOSABLE_STABLE",
+            "tokens": [
+              {
+                "index": 0,
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18,
+                "__typename": "GqlPoolTokenDetail"
+              },
+              {
+                "index": 1,
+                "address": "0xdacf5fa19b1f720111609043ac67a9818262850c",
+                "decimals": 18,
+                "__typename": "GqlPoolTokenDetail"
+              },
+              {
+                "index": 2,
+                "address": "0xf1c9acdc66974dfb6decb12aa385b9cd01190e38",
+                "decimals": 18,
+                "__typename": "GqlPoolTokenDetail"
+              }
+            ],
+            "__typename": "GqlNestedPool"
+          },
+          "__typename": "GqlPoolTokenDetail"
+        },
+        {
+          "id": "0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635-0xf1c9acdc66974dfb6decb12aa385b9cd01190e38",
+          "index": 2,
+          "name": "Staked ETH",
+          "symbol": "osETH",
+          "balance": "7691.984502052511859315",
+          "balanceUSD": "24194368.05275597",
+          "address": "0xf1c9acdc66974dfb6decb12aa385b9cd01190e38",
+          "priceRate": "1.020865764955229276",
+          "decimals": 18,
+          "weight": null,
+          "hasNestedPool": false,
+          "isAllowed": true,
+          "priceRateProvider": "0x8023518b2192fb5384dadc596765b3dd1cdfe471",
+          "priceRateProviderData": {
+            "address": "0x8023518b2192fb5384dadc596765b3dd1cdfe471",
+            "name": "PriceFeed",
+            "summary": "safe",
+            "reviewed": true,
+            "warnings": null,
+            "__typename": "GqlPriceRateProviderData"
+          },
+          "nestedPool": null,
+          "__typename": "GqlPoolTokenDetail"
+        }
+      ],
+      "__typename": "GqlPoolComposableStable"
+    }
+  }
+}
