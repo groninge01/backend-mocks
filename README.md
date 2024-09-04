@@ -1,5 +1,7 @@
 # backend-mocks
 
+## These mocks are for local development of (frontend-v3)[https://github.com/balancer/frontend-v3]
+
 #### How to use ng-apimock:
 
 - add _NEXT_PUBLIC_BALANCER_API_URL=http://localhost:9999/ngapimock/graphql_ to _.env_
