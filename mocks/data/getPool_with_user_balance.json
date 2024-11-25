@@ -1,0 +1,201 @@
+{
+  "data": {
+    "pool": {
+      "id": "0xe2f706ef1f7240b803aae877c9c762644bb808d80002000000000000000008c2",
+      "address": "0xe2f706ef1f7240b803aae877c9c762644bb808d8",
+      "name": "80TETU-20USDC",
+      "version": 1,
+      "owner": "0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b",
+      "decimals": 18,
+      "factory": "0x8e9aa87e45e92bad84d5f8dd1bff34fb92637de9",
+      "symbol": "80TETU-20USDC",
+      "createTime": 1668073610,
+      "type": "WEIGHTED",
+      "chain": "POLYGON",
+      "protocolVersion": 2,
+      "tags": ["INCENTIVIZED"],
+      "dynamicData": {
+        "poolId": "0xe2f706ef1f7240b803aae877c9c762644bb808d80002000000000000000008c2",
+        "swapEnabled": true,
+        "totalLiquidity": "562930.88",
+        "totalShares": "124810644.591635348759678603",
+        "fees24h": "0.08",
+        "surplus24h": "0.00",
+        "swapFee": "0.003",
+        "volume24h": "27.48",
+        "holdersCount": "181",
+        "isInRecoveryMode": false,
+        "isPaused": false,
+        "aprItems": [
+          {
+            "id": "0xa86e8e8cfae8c9847fa9381d4631c13c7b3466bd-0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3-balgauge-BAL-apr",
+            "title": "BAL reward APR",
+            "apr": 0.3825884631574566,
+            "type": "VEBAL_EMISSIONS",
+            "rewardTokenSymbol": "BAL",
+            "rewardTokenAddress": "0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3",
+            "__typename": "GqlPoolAprItem"
+          },
+          {
+            "id": "0xa86e8e8cfae8c9847fa9381d4631c13c7b3466bd-0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3-balgauge-BAL-apr-boost",
+            "title": "BAL reward APR",
+            "apr": 0.573882694736185,
+            "type": "STAKING_BOOST",
+            "rewardTokenSymbol": "BAL",
+            "rewardTokenAddress": "0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3",
+            "__typename": "GqlPoolAprItem"
+          },
+          {
+            "id": "0xe2f706ef1f7240b803aae877c9c762644bb808d80002000000000000000008c2-swap-apr",
+            "title": "Swap fees APR",
+            "apr": 0.00002672765684707538,
+            "type": "SWAP_FEE",
+            "rewardTokenSymbol": null,
+            "rewardTokenAddress": null,
+            "__typename": "GqlPoolAprItem"
+          }
+        ],
+        "__typename": "GqlPoolDynamicData"
+      },
+      "allTokens": [
+        {
+          "id": "0xe2f706ef1f7240b803aae877c9c762644bb808d80002000000000000000008c2-0x255707b70bf90aa112006e1b07b9aea6de021424",
+          "address": "0x255707b70bf90aa112006e1b07b9aea6de021424",
+          "name": "TETU Reward Token",
+          "symbol": "TETU",
+          "decimals": 18,
+          "isNested": false,
+          "isPhantomBpt": false,
+          "isMainToken": true,
+          "__typename": "GqlPoolTokenExpanded"
+        },
+        {
+          "id": "0xe2f706ef1f7240b803aae877c9c762644bb808d80002000000000000000008c2-0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+          "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC",
+          "decimals": 6,
+          "isNested": false,
+          "isPhantomBpt": false,
+          "isMainToken": true,
+          "__typename": "GqlPoolTokenExpanded"
+        }
+      ],
+      "displayTokens": [
+        {
+          "id": "0xe2f706ef1f7240b803aae877c9c762644bb808d80002000000000000000008c2-0x255707b70bf90aa112006e1b07b9aea6de021424",
+          "address": "0x255707b70bf90aa112006e1b07b9aea6de021424",
+          "name": "TETU Reward Token",
+          "weight": "0.8",
+          "symbol": "TETU",
+          "nestedTokens": null,
+          "__typename": "GqlPoolTokenDisplay"
+        },
+        {
+          "id": "0xe2f706ef1f7240b803aae877c9c762644bb808d80002000000000000000008c2-0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+          "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+          "name": "USD Coin (PoS)",
+          "weight": "0.2",
+          "symbol": "USDC",
+          "nestedTokens": null,
+          "__typename": "GqlPoolTokenDisplay"
+        }
+      ],
+      "staking": {
+        "id": "0xa86e8e8cfae8c9847fa9381d4631c13c7b3466bd",
+        "type": "GAUGE",
+        "chain": "POLYGON",
+        "address": "0xa86e8e8cfae8c9847fa9381d4631c13c7b3466bd",
+        "gauge": {
+          "id": "0xa86e8e8cfae8c9847fa9381d4631c13c7b3466bd",
+          "gaugeAddress": "0xa86e8e8cfae8c9847fa9381d4631c13c7b3466bd",
+          "version": 2,
+          "status": "PREFERRED",
+          "workingSupply": "49849984.429890800500589512",
+          "otherGauges": [
+            {
+              "gaugeAddress": "0x9fb2eb86ae9dbebf276a7a67df1f2d48a49b95ec",
+              "version": 1,
+              "status": "ACTIVE",
+              "id": "0x9fb2eb86ae9dbebf276a7a67df1f2d48a49b95ec",
+              "rewards": [
+                {
+                  "id": "0x9fb2eb86ae9dbebf276a7a67df1f2d48a49b95ec-0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3-balgauge",
+                  "tokenAddress": "0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3",
+                  "rewardPerSecond": "0",
+                  "__typename": "GqlPoolStakingGaugeReward"
+                },
+                {
+                  "id": "0x9fb2eb86ae9dbebf276a7a67df1f2d48a49b95ec-0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3-reward",
+                  "tokenAddress": "0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3",
+                  "rewardPerSecond": "0.0",
+                  "__typename": "GqlPoolStakingGaugeReward"
+                }
+              ],
+              "__typename": "GqlPoolStakingOtherGauge"
+            }
+          ],
+          "rewards": [
+            {
+              "id": "0xa86e8e8cfae8c9847fa9381d4631c13c7b3466bd-0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3-balgauge",
+              "rewardPerSecond": "0.003326441459223629",
+              "tokenAddress": "0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3",
+              "__typename": "GqlPoolStakingGaugeReward"
+            }
+          ],
+          "__typename": "GqlPoolStakingGauge"
+        },
+        "aura": null,
+        "__typename": "GqlPoolStaking"
+      },
+      "userBalance": {
+        "totalBalance": "32052560.22208211342122",
+        "totalBalanceUsd": 182121.05,
+        "walletBalance": "32052560.22208211342122494",
+        "walletBalanceUsd": 182121.05,
+        "stakedBalances": [],
+        "__typename": "GqlPoolUserBalance"
+      },
+      "nestingType": "NO_NESTING",
+      "poolTokens": [
+        {
+          "id": "0xe2f706ef1f7240b803aae877c9c762644bb808d80002000000000000000008c2-0x255707b70bf90aa112006e1b07b9aea6de021424",
+          "index": 0,
+          "name": "TETU Reward Token",
+          "symbol": "TETU",
+          "balance": "305425434.533814467530949787",
+          "balanceUSD": "450597.1978220819",
+          "address": "0x255707b70bf90aa112006e1b07b9aea6de021424",
+          "priceRate": "1.0",
+          "decimals": 18,
+          "weight": "0.8",
+          "hasNestedPool": false,
+          "isAllowed": true,
+          "priceRateProvider": null,
+          "priceRateProviderData": null,
+          "nestedPool": null,
+          "__typename": "GqlPoolTokenDetail"
+        },
+        {
+          "id": "0xe2f706ef1f7240b803aae877c9c762644bb808d80002000000000000000008c2-0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+          "index": 1,
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC",
+          "balance": "112333.67842",
+          "balanceUSD": "112333.67842",
+          "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+          "priceRate": "1.0",
+          "decimals": 6,
+          "weight": "0.2",
+          "hasNestedPool": false,
+          "isAllowed": true,
+          "priceRateProvider": null,
+          "priceRateProviderData": null,
+          "nestedPool": null,
+          "__typename": "GqlPoolTokenDetail"
+        }
+      ],
+      "__typename": "GqlPoolWeighted"
+    }
+  }
+}

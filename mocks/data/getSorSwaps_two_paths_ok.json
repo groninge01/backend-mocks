@@ -1,0 +1,258 @@
+{
+  "data": {
+    "swaps": {
+      "effectivePrice": "0.973123",
+      "effectivePriceReversed": "1.027618",
+      "swapType": "EXACT_IN",
+      "paths": [
+        {
+          "inputAmountRaw": "75000000",
+          "outputAmountRaw": "77013736",
+          "pools": [
+            "0xc2aa60465bffa1a88f5ba471a59ca0435c3ec5c100020000000000000000062c",
+            "0x1cce5169bde03f3d5ad0206f6bd057953539dae600020000000000000000062b",
+            "0x49cbd67651fbabce12d1df18499896ec87bef46f00000000000000000000064a",
+            "0x79c58f70905f734641735bc61e45c19dd9ad60bc0000000000000000000004e7"
+          ],
+          "protocolVersion": 2,
+          "tokens": [
+            {
+              "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "decimals": 6,
+              "__typename": "Token"
+            },
+            {
+              "address": "0xe07f9d810a48ab5c3c914ba3ca53af14e4491e8a",
+              "decimals": 18,
+              "__typename": "Token"
+            },
+            {
+              "address": "0x83f20f44975d03b1b09e64809b757c47f942beea",
+              "decimals": 18,
+              "__typename": "Token"
+            },
+            {
+              "address": "0x79c58f70905f734641735bc61e45c19dd9ad60bc",
+              "decimals": 18,
+              "__typename": "Token"
+            },
+            {
+              "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+              "decimals": 6,
+              "__typename": "Token"
+            }
+          ],
+          "__typename": "GqlSorPath"
+        },
+        {
+          "inputAmountRaw": "25000000",
+          "outputAmountRaw": "25748133",
+          "pools": [
+            "0x96646936b91d6b9d7d0c47c496afbf3d6ec7b6f8000200000000000000000019",
+            "0x08775ccb6674d6bdceb0797c364c2653ed84f3840002000000000000000004f0",
+            "0x79c58f70905f734641735bc61e45c19dd9ad60bc0000000000000000000004e7"
+          ],
+          "protocolVersion": 2,
+          "tokens": [
+            {
+              "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "decimals": 6,
+              "__typename": "Token"
+            },
+            {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "decimals": 18,
+              "__typename": "Token"
+            },
+            {
+              "address": "0x79c58f70905f734641735bc61e45c19dd9ad60bc",
+              "decimals": 18,
+              "__typename": "Token"
+            },
+            {
+              "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+              "decimals": 6,
+              "__typename": "Token"
+            }
+          ],
+          "__typename": "GqlSorPath"
+        }
+      ],
+      "priceImpact": {
+        "priceImpact": "0.0037",
+        "error": null,
+        "__typename": "GqlPriceImpact"
+      },
+      "returnAmount": "102.761869",
+      "routes": [
+        {
+          "hops": [
+            {
+              "pool": {
+                "symbol": "ECLP-GYD-USDC",
+                "__typename": "GqlPoolMinimal"
+              },
+              "poolId": "0xc2aa60465bffa1a88f5ba471a59ca0435c3ec5c100020000000000000000062c",
+              "tokenIn": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "tokenInAmount": "75",
+              "tokenOut": "0xe07f9d810a48ab5c3c914ba3ca53af14e4491e8a",
+              "tokenOutAmount": "0",
+              "__typename": "GqlSorSwapRouteHop"
+            },
+            {
+              "pool": {
+                "symbol": "ECLP-GYD-sDAI",
+                "__typename": "GqlPoolMinimal"
+              },
+              "poolId": "0x1cce5169bde03f3d5ad0206f6bd057953539dae600020000000000000000062b",
+              "tokenIn": "0xe07f9d810a48ab5c3c914ba3ca53af14e4491e8a",
+              "tokenInAmount": "0",
+              "tokenOut": "0x83f20f44975d03b1b09e64809b757c47f942beea",
+              "tokenOutAmount": "0",
+              "__typename": "GqlSorSwapRouteHop"
+            },
+            {
+              "pool": {
+                "symbol": "sDAI/3Pool",
+                "__typename": "GqlPoolMinimal"
+              },
+              "poolId": "0x49cbd67651fbabce12d1df18499896ec87bef46f00000000000000000000064a",
+              "tokenIn": "0x83f20f44975d03b1b09e64809b757c47f942beea",
+              "tokenInAmount": "0",
+              "tokenOut": "0x79c58f70905f734641735bc61e45c19dd9ad60bc",
+              "tokenOutAmount": "0",
+              "__typename": "GqlSorSwapRouteHop"
+            },
+            {
+              "pool": {
+                "symbol": "USDC-DAI-USDT",
+                "__typename": "GqlPoolMinimal"
+              },
+              "poolId": "0x79c58f70905f734641735bc61e45c19dd9ad60bc0000000000000000000004e7",
+              "tokenIn": "0x79c58f70905f734641735bc61e45c19dd9ad60bc",
+              "tokenInAmount": "0",
+              "tokenOut": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+              "tokenOutAmount": "0",
+              "__typename": "GqlSorSwapRouteHop"
+            }
+          ],
+          "share": 0.5,
+          "tokenInAmount": "75",
+          "tokenOut": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "tokenOutAmount": "77.013736",
+          "__typename": "GqlSorSwapRoute"
+        },
+        {
+          "hops": [
+            {
+              "pool": {
+                "symbol": "B-50USDC-50WETH",
+                "__typename": "GqlPoolMinimal"
+              },
+              "poolId": "0x96646936b91d6b9d7d0c47c496afbf3d6ec7b6f8000200000000000000000019",
+              "tokenIn": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "tokenInAmount": "25",
+              "tokenOut": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "tokenOutAmount": "0",
+              "__typename": "GqlSorSwapRouteHop"
+            },
+            {
+              "pool": {
+                "symbol": "50WETH-50-3pool",
+                "__typename": "GqlPoolMinimal"
+              },
+              "poolId": "0x08775ccb6674d6bdceb0797c364c2653ed84f3840002000000000000000004f0",
+              "tokenIn": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "tokenInAmount": "0",
+              "tokenOut": "0x79c58f70905f734641735bc61e45c19dd9ad60bc",
+              "tokenOutAmount": "0",
+              "__typename": "GqlSorSwapRouteHop"
+            },
+            {
+              "pool": {
+                "symbol": "USDC-DAI-USDT",
+                "__typename": "GqlPoolMinimal"
+              },
+              "poolId": "0x79c58f70905f734641735bc61e45c19dd9ad60bc0000000000000000000004e7",
+              "tokenIn": "0x79c58f70905f734641735bc61e45c19dd9ad60bc",
+              "tokenInAmount": "0",
+              "tokenOut": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+              "tokenOutAmount": "0",
+              "__typename": "GqlSorSwapRouteHop"
+            }
+          ],
+          "share": 0.5,
+          "tokenInAmount": "25",
+          "tokenOut": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "tokenOutAmount": "25.748133",
+          "__typename": "GqlSorSwapRoute"
+        }
+      ],
+      "swapAmount": "100",
+      "swaps": [
+        {
+          "amount": "75000000",
+          "assetInIndex": 0,
+          "assetOutIndex": 1,
+          "poolId": "0xc2aa60465bffa1a88f5ba471a59ca0435c3ec5c100020000000000000000062c",
+          "userData": "0x",
+          "__typename": "GqlSorSwap"
+        },
+        {
+          "amount": "0",
+          "assetInIndex": 1,
+          "assetOutIndex": 2,
+          "poolId": "0x1cce5169bde03f3d5ad0206f6bd057953539dae600020000000000000000062b",
+          "userData": "0x",
+          "__typename": "GqlSorSwap"
+        },
+        {
+          "amount": "0",
+          "assetInIndex": 2,
+          "assetOutIndex": 3,
+          "poolId": "0x49cbd67651fbabce12d1df18499896ec87bef46f00000000000000000000064a",
+          "userData": "0x",
+          "__typename": "GqlSorSwap"
+        },
+        {
+          "amount": "0",
+          "assetInIndex": 3,
+          "assetOutIndex": 4,
+          "poolId": "0x79c58f70905f734641735bc61e45c19dd9ad60bc0000000000000000000004e7",
+          "userData": "0x",
+          "__typename": "GqlSorSwap"
+        },
+        {
+          "amount": "25000000",
+          "assetInIndex": 0,
+          "assetOutIndex": 5,
+          "poolId": "0x96646936b91d6b9d7d0c47c496afbf3d6ec7b6f8000200000000000000000019",
+          "userData": "0x",
+          "__typename": "GqlSorSwap"
+        },
+        {
+          "amount": "0",
+          "assetInIndex": 5,
+          "assetOutIndex": 3,
+          "poolId": "0x08775ccb6674d6bdceb0797c364c2653ed84f3840002000000000000000004f0",
+          "userData": "0x",
+          "__typename": "GqlSorSwap"
+        },
+        {
+          "amount": "0",
+          "assetInIndex": 3,
+          "assetOutIndex": 4,
+          "poolId": "0x79c58f70905f734641735bc61e45c19dd9ad60bc0000000000000000000004e7",
+          "userData": "0x",
+          "__typename": "GqlSorSwap"
+        }
+      ],
+      "tokenIn": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "tokenInAmount": "100000000",
+      "tokenOut": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "tokenOutAmount": "102761869",
+      "protocolVersion": 2,
+      "__typename": "GqlSorGetSwapPaths"
+    }
+  }
+}

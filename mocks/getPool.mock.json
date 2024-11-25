@@ -16,6 +16,26 @@
       "default": true,
       "status": 200,
       "file": "data/getPool.json"
+    },
+    "with userbalance": {
+      "status": 200,
+      "file": "data/getPool_with_user_balance.json"
+    },
+    "with hook": {
+      "status": 200,
+      "file": "data/getPool_with_hook.json"
+    },
+    "with nested hook": {
+      "status": 200,
+      "file": "data/getPool_with_nested_hook.json"
+    },
+    "with unreviewed hook": {
+      "status": 200,
+      "file": "data/getPool_with_unreviewed_hook.json"
+    },
+    "with hooks": {
+      "status": 200,
+      "file": "data/getPool_with_hooks.json"
     }
   }
 }

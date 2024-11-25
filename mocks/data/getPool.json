@@ -232,7 +232,7 @@
           "priceRateProviderData": {
             "address": "0x8023518b2192fb5384dadc596765b3dd1cdfe471",
             "name": "PriceFeed",
-            "summary": "safe",
+            "summary": "unsafe",
             "reviewed": true,
             "warnings": null,
             "__typename": "GqlPriceRateProviderData"

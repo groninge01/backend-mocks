@@ -1,0 +1,159 @@
+{
+  "data": {
+    "pool": {
+      "id": "0x75f49d54978d08e4e76a873da6c78e8f6b2901c2",
+      "address": "0x75f49d54978d08e4e76a873da6c78e8f6b2901c2",
+      "name": "Balancer 50 BAL 50 WETH (ExitFee Hook)",
+      "version": 1,
+      "owner": "0x0000000000000000000000000000000000000000",
+      "decimals": 18,
+      "factory": "0x4f12f60148f98ad920b99e844807f0e245f2ae58",
+      "symbol": "Bv3-50BAL-50WETH-ExitFeeHook",
+      "createTime": 1729827156,
+      "type": "WEIGHTED",
+      "chain": "SEPOLIA",
+      "protocolVersion": 3,
+      "tags": ["HOOKS_EXITFEE"],
+      "hasErc4626": false,
+      "hasNestedErc4626": false,
+      "liquidityManagement": {
+        "disableUnbalancedLiquidity": true,
+        "__typename": "LiquidityManagement"
+      },
+      "hook": {
+        "address": "0x307d96183f133c738af11d1971bf0a5ee15312be",
+        "__typename": "Hook",
+        "chain": "SEPOLIA",
+        "reviewData": {
+          "name": "ExitFeeHookExample",
+          "summary": "safe",
+          "warnings": ["one", "two"],
+          "reviewFile": "./ExitFeeHook.md",
+          "__typename": "HookReviewData"
+        }
+      },
+      "dynamicData": {
+        "poolId": "0x75f49d54978d08e4e76a873da6c78e8f6b2901c2",
+        "swapEnabled": true,
+        "totalLiquidity": "2814.84",
+        "totalShares": "16.637805593058340857",
+        "fees24h": "0.00",
+        "surplus24h": "0.00",
+        "swapFee": "0.01",
+        "volume24h": "0.00",
+        "holdersCount": "2",
+        "isInRecoveryMode": false,
+        "isPaused": false,
+        "aprItems": [
+          {
+            "id": "0x75f49d54978d08e4e76a873da6c78e8f6b2901c2-swap-apr-30d",
+            "title": "Swap fees APR (30d)",
+            "apr": 0.2615409320036348,
+            "type": "SWAP_FEE_30D",
+            "rewardTokenSymbol": null,
+            "rewardTokenAddress": null,
+            "__typename": "GqlPoolAprItem"
+          }
+        ],
+        "__typename": "GqlPoolDynamicData"
+      },
+      "allTokens": [
+        {
+          "id": "0x75f49d54978d08e4e76a873da6c78e8f6b2901c2-0x7b79995e5f793a07bc00c21412e50ecae098e7f9",
+          "address": "0x7b79995e5f793a07bc00c21412e50ecae098e7f9",
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "decimals": 18,
+          "isNested": false,
+          "isPhantomBpt": false,
+          "isMainToken": true,
+          "__typename": "GqlPoolTokenExpanded"
+        },
+        {
+          "id": "0x75f49d54978d08e4e76a873da6c78e8f6b2901c2-0xb19382073c7a0addbb56ac6af1808fa49e377b75",
+          "address": "0xb19382073c7a0addbb56ac6af1808fa49e377b75",
+          "name": "Balancer Governance Token",
+          "symbol": "BAL",
+          "decimals": 18,
+          "isNested": false,
+          "isPhantomBpt": false,
+          "isMainToken": true,
+          "__typename": "GqlPoolTokenExpanded"
+        }
+      ],
+      "displayTokens": [
+        {
+          "id": "0x75f49d54978d08e4e76a873da6c78e8f6b2901c2-0x7b79995e5f793a07bc00c21412e50ecae098e7f9",
+          "address": "0x7b79995e5f793a07bc00c21412e50ecae098e7f9",
+          "name": "Wrapped Ether",
+          "weight": "0.5",
+          "symbol": "WETH",
+          "nestedTokens": null,
+          "__typename": "GqlPoolTokenDisplay"
+        },
+        {
+          "id": "0x75f49d54978d08e4e76a873da6c78e8f6b2901c2-0xb19382073c7a0addbb56ac6af1808fa49e377b75",
+          "address": "0xb19382073c7a0addbb56ac6af1808fa49e377b75",
+          "name": "Balancer Governance Token",
+          "weight": "0.5",
+          "symbol": "BAL",
+          "nestedTokens": null,
+          "__typename": "GqlPoolTokenDisplay"
+        }
+      ],
+      "staking": null,
+      "userBalance": {
+        "totalBalance": "0",
+        "totalBalanceUsd": 0,
+        "walletBalance": "0",
+        "walletBalanceUsd": 0,
+        "stakedBalances": [],
+        "__typename": "GqlPoolUserBalance"
+      },
+      "nestingType": "NO_NESTING",
+      "poolTokens": [
+        {
+          "id": "0x75f49d54978d08e4e76a873da6c78e8f6b2901c2-0x7b79995e5f793a07bc00c21412e50ecae098e7f9",
+          "index": 0,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "balance": "0.507751909287428",
+          "balanceUSD": "1627.38548941895",
+          "address": "0x7b79995e5f793a07bc00c21412e50ecae098e7f9",
+          "priceRate": "1",
+          "decimals": 18,
+          "weight": "0.5",
+          "hasNestedPool": false,
+          "isAllowed": true,
+          "priceRateProvider": "0x0000000000000000000000000000000000000000",
+          "priceRateProviderData": null,
+          "nestedPool": null,
+          "isErc4626": false,
+          "underlyingToken": null,
+          "__typename": "GqlPoolTokenDetail"
+        },
+        {
+          "id": "0x75f49d54978d08e4e76a873da6c78e8f6b2901c2-0xb19382073c7a0addbb56ac6af1808fa49e377b75",
+          "index": 1,
+          "name": "Balancer Governance Token",
+          "symbol": "BAL",
+          "balance": "547.2138772673909",
+          "balanceUSD": "1187.454113670238",
+          "address": "0xb19382073c7a0addbb56ac6af1808fa49e377b75",
+          "priceRate": "1",
+          "decimals": 18,
+          "weight": "0.5",
+          "hasNestedPool": false,
+          "isAllowed": true,
+          "priceRateProvider": "0x0000000000000000000000000000000000000000",
+          "priceRateProviderData": null,
+          "nestedPool": null,
+          "isErc4626": false,
+          "underlyingToken": null,
+          "__typename": "GqlPoolTokenDetail"
+        }
+      ],
+      "__typename": "GqlPoolWeighted"
+    }
+  }
+}

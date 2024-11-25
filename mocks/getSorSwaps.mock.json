@@ -1,0 +1,26 @@
+{
+  "name": "getSorSwaps",
+  "request": {
+    "url": "/graphql",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "operationName": "GetSorSwaps",
+      "query": "(.*)query GetSorSwaps(.*)"
+    }
+  },
+  "responses": {
+    "one_path_ok": {
+      "default": true,
+      "status": 200,
+      "file": "data/getSorSwaps_one_path_ok.json"
+    },
+    "two_paths_ok": {
+      "default": true,
+      "status": 200,
+      "file": "data/getSorSwaps_two_paths_ok.json"
+    }
+  }
+}
