@@ -22,33 +22,49 @@
       },
       "hook": {
         "address": "0x307d96183f133c738af11d1971bf0a5ee15312be",
-        "__typename": "Hook",
-        "chain": "SEPOLIA",
+        "dynamicData": {
+          "addLiquidityFeePercentage": null,
+          "maxSurgeFeePercentage": null,
+          "removeLiquidityFeePercentage": "0",
+          "surgeThresholdPercentage": null,
+          "swapFeePercentage": null,
+          "__typename": "GqlHookData"
+        },
         "reviewData": {
-          "name": "ExitFeeHookExample",
           "summary": "safe",
-          "warnings": ["one", "two"],
+          "warnings": [],
           "reviewFile": "./ExitFeeHook.md",
-          "__typename": "HookReviewData"
-        }
+          "__typename": "GqlHookReviewData"
+        },
+        "shouldCallAfterAddLiquidity": false,
+        "shouldCallAfterInitialize": false,
+        "shouldCallAfterRemoveLiquidity": true,
+        "shouldCallAfterSwap": false,
+        "shouldCallBeforeAddLiquidity": false,
+        "shouldCallBeforeInitialize": false,
+        "shouldCallBeforeRemoveLiquidity": false,
+        "shouldCallBeforeSwap": false,
+        "shouldCallComputeDynamicSwapFee": true,
+        "enableHookAdjustedAmounts": true,
+        "__typename": "GqlHook"
       },
       "dynamicData": {
         "poolId": "0x75f49d54978d08e4e76a873da6c78e8f6b2901c2",
         "swapEnabled": true,
-        "totalLiquidity": "2814.84",
-        "totalShares": "16.637805593058340857",
+        "totalLiquidity": "5461.69",
+        "totalShares": "28.17811079027528973",
         "fees24h": "0.00",
         "surplus24h": "0.00",
         "swapFee": "0.01",
         "volume24h": "0.00",
-        "holdersCount": "2",
+        "holdersCount": "4",
         "isInRecoveryMode": false,
         "isPaused": false,
         "aprItems": [
           {
             "id": "0x75f49d54978d08e4e76a873da6c78e8f6b2901c2-swap-apr-30d",
             "title": "Swap fees APR (30d)",
-            "apr": 0.2615409320036348,
+            "apr": 0.1347122399680363,
             "type": "SWAP_FEE_30D",
             "rewardTokenSymbol": null,
             "rewardTokenAddress": null,
@@ -103,10 +119,10 @@
       ],
       "staking": null,
       "userBalance": {
-        "totalBalance": "0",
-        "totalBalanceUsd": 0,
-        "walletBalance": "0",
-        "walletBalanceUsd": 0,
+        "totalBalance": "0.02040457540320826",
+        "totalBalanceUsd": 3.954964319182465,
+        "walletBalance": "0.020404575403208264",
+        "walletBalanceUsd": 3.954964319182465,
         "stakedBalances": [],
         "__typename": "GqlPoolUserBalance"
       },
@@ -117,8 +133,8 @@
           "index": 0,
           "name": "Wrapped Ether",
           "symbol": "WETH",
-          "balance": "0.507751909287428",
-          "balanceUSD": "1627.38548941895",
+          "balance": "0.8599384981300872",
+          "balanceUSD": "2968.671083859706",
           "address": "0x7b79995e5f793a07bc00c21412e50ecae098e7f9",
           "priceRate": "1",
           "decimals": 18,
@@ -130,6 +146,7 @@
           "nestedPool": null,
           "isErc4626": false,
           "underlyingToken": null,
+          "erc4626ReviewData": null,
           "__typename": "GqlPoolTokenDetail"
         },
         {
@@ -137,8 +154,8 @@
           "index": 1,
           "name": "Balancer Governance Token",
           "symbol": "BAL",
-          "balance": "547.2138772673909",
-          "balanceUSD": "1187.454113670238",
+          "balance": "926.7720537647092",
+          "balanceUSD": "2493.016824627068",
           "address": "0xb19382073c7a0addbb56ac6af1808fa49e377b75",
           "priceRate": "1",
           "decimals": 18,
@@ -150,6 +167,7 @@
           "nestedPool": null,
           "isErc4626": false,
           "underlyingToken": null,
+          "erc4626ReviewData": null,
           "__typename": "GqlPoolTokenDetail"
         }
       ],
