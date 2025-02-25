@@ -36,6 +36,10 @@
     "with hooks": {
       "status": 200,
       "file": "data/getPool_with_hooks.json"
+    },
+    "with dynamic swap fee": {
+      "status": 200,
+      "file": "data/getPool_with_dynamic_swap_fee.json"
     }
   }
 }

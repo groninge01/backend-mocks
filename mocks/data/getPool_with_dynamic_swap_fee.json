@@ -1,0 +1,197 @@
+{
+  "data": {
+    "pool": {
+      "id": "0xecba18ab010ba018d612b34e306613144545ca1e",
+      "address": "0xecba18ab010ba018d612b34e306613144545ca1e",
+      "name": "50WETH 50USDC",
+      "version": 1,
+      "owner": "0x0000000000000000000000000000000000000000",
+      "swapFeeManager": "0x0000000000000000000000000000000000000000",
+      "pauseManager": "0x0000000000000000000000000000000000000000",
+      "poolCreator": "0x0000000000000000000000000000000000000000",
+      "decimals": 18,
+      "factory": "0x7532d5a3be916e4a4d900240f49f0babd4fd855c",
+      "symbol": "50WETH-50USDC",
+      "createTime": 1739207316,
+      "type": "WEIGHTED",
+      "chain": "SEPOLIA",
+      "protocolVersion": 3,
+      "tags": ["HOOKS_MEVCAPTURE"],
+      "hasErc4626": false,
+      "hasNestedErc4626": false,
+      "hasAnyAllowedBuffer": false,
+      "liquidityManagement": {
+        "disableUnbalancedLiquidity": false,
+        "__typename": "LiquidityManagement"
+      },
+      "hook": {
+        "address": "0x18b10fe9ec4815c31c4ab04fa6f91dce0695132f",
+        "config": {
+          "enableHookAdjustedAmounts": false,
+          "shouldCallAfterAddLiquidity": false,
+          "shouldCallAfterInitialize": false,
+          "shouldCallAfterRemoveLiquidity": false,
+          "shouldCallAfterSwap": false,
+          "shouldCallBeforeAddLiquidity": true,
+          "shouldCallBeforeInitialize": false,
+          "shouldCallBeforeRemoveLiquidity": true,
+          "shouldCallBeforeSwap": false,
+          "shouldCallComputeDynamicSwapFee": true,
+          "__typename": "HookConfig"
+        },
+        "type": "MEV_TAX",
+        "params": {
+          "mevTaxThreshold": "0.000000001",
+          "mevTaxMultiplier": "500000",
+          "maxMevSwapFeePercentage": "0.999999",
+          "__typename": "MevTaxHookParams"
+        },
+        "reviewData": null,
+        "__typename": "GqlHook"
+      },
+      "dynamicData": {
+        "poolId": "0xecba18ab010ba018d612b34e306613144545ca1e",
+        "swapEnabled": true,
+        "totalLiquidity": "105.33",
+        "totalShares": "1.12657018137567137",
+        "fees24h": "0.05",
+        "surplus24h": "0.00",
+        "swapFee": "0.003",
+        "volume24h": "6.33",
+        "holdersCount": "2",
+        "isInRecoveryMode": false,
+        "isPaused": false,
+        "aprItems": [
+          {
+            "id": "0xecba18ab010ba018d612b34e306613144545ca1e-swap-apr-7d",
+            "title": "Swap fees APR (7d)",
+            "apr": 0.04031491504077918,
+            "type": "SWAP_FEE_7D",
+            "rewardTokenSymbol": null,
+            "rewardTokenAddress": null,
+            "__typename": "GqlPoolAprItem"
+          },
+          {
+            "id": "0xecba18ab010ba018d612b34e306613144545ca1e-dynamic-swap-apr-24h",
+            "title": "Dynamic swap fees APR",
+            "apr": 0.09494967460717127,
+            "type": "DYNAMIC_SWAP_FEE_24H",
+            "rewardTokenSymbol": null,
+            "rewardTokenAddress": null,
+            "__typename": "GqlPoolAprItem"
+          },
+          {
+            "id": "0xecba18ab010ba018d612b34e306613144545ca1e-swap-apr-24h",
+            "title": "Swap fees APR (24h)",
+            "apr": 0.1607659567066607,
+            "type": "SWAP_FEE_24H",
+            "rewardTokenSymbol": null,
+            "rewardTokenAddress": null,
+            "__typename": "GqlPoolAprItem"
+          },
+          {
+            "id": "0xecba18ab010ba018d612b34e306613144545ca1e-swap-apr",
+            "title": "Swap fees APR",
+            "apr": 0.1607659567066607,
+            "type": "SWAP_FEE",
+            "rewardTokenSymbol": null,
+            "rewardTokenAddress": null,
+            "__typename": "GqlPoolAprItem"
+          }
+        ],
+        "__typename": "GqlPoolDynamicData"
+      },
+      "allTokens": [
+        {
+          "id": "0xecba18ab010ba018d612b34e306613144545ca1e-0x1c7d4b196cb0c7b01d743fbc6116a902379c7238",
+          "address": "0x1c7d4b196cb0c7b01d743fbc6116a902379c7238",
+          "name": "USDC",
+          "symbol": "USDC",
+          "decimals": 6,
+          "isNested": false,
+          "isPhantomBpt": false,
+          "isMainToken": true,
+          "__typename": "GqlPoolTokenExpanded"
+        },
+        {
+          "id": "0xecba18ab010ba018d612b34e306613144545ca1e-0x7b79995e5f793a07bc00c21412e50ecae098e7f9",
+          "address": "0x7b79995e5f793a07bc00c21412e50ecae098e7f9",
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "decimals": 18,
+          "isNested": false,
+          "isPhantomBpt": false,
+          "isMainToken": true,
+          "__typename": "GqlPoolTokenExpanded"
+        }
+      ],
+      "staking": null,
+      "userBalance": {
+        "totalBalance": "0",
+        "totalBalanceUsd": 0,
+        "walletBalance": "0",
+        "walletBalanceUsd": 0,
+        "stakedBalances": [],
+        "__typename": "GqlPoolUserBalance"
+      },
+      "nestingType": "NO_NESTING",
+      "poolTokens": [
+        {
+          "id": "0xecba18ab010ba018d612b34e306613144545ca1e-0x1c7d4b196cb0c7b01d743fbc6116a902379c7238",
+          "chain": "SEPOLIA",
+          "chainId": 11155111,
+          "address": "0x1c7d4b196cb0c7b01d743fbc6116a902379c7238",
+          "decimals": 6,
+          "name": "USDC",
+          "symbol": "USDC",
+          "priority": 0,
+          "tradable": true,
+          "isErc4626": false,
+          "index": 0,
+          "balance": "56.794593",
+          "balanceUSD": "51.06127443605895",
+          "priceRate": "1",
+          "weight": "0.5",
+          "hasNestedPool": false,
+          "isAllowed": true,
+          "priceRateProvider": "0x0000000000000000000000000000000000000000",
+          "logoURI": null,
+          "priceRateProviderData": null,
+          "nestedPool": null,
+          "isBufferAllowed": true,
+          "underlyingToken": null,
+          "erc4626ReviewData": null,
+          "__typename": "GqlPoolTokenDetail"
+        },
+        {
+          "id": "0xecba18ab010ba018d612b34e306613144545ca1e-0x7b79995e5f793a07bc00c21412e50ecae098e7f9",
+          "chain": "SEPOLIA",
+          "chainId": 11155111,
+          "address": "0x7b79995e5f793a07bc00c21412e50ecae098e7f9",
+          "decimals": 18,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "priority": 0,
+          "tradable": true,
+          "isErc4626": false,
+          "index": 1,
+          "balance": "0.022446723343482116",
+          "balanceUSD": "54.26472921563457",
+          "priceRate": "1",
+          "weight": "0.5",
+          "hasNestedPool": false,
+          "isAllowed": true,
+          "priceRateProvider": "0x0000000000000000000000000000000000000000",
+          "logoURI": null,
+          "priceRateProviderData": null,
+          "nestedPool": null,
+          "isBufferAllowed": true,
+          "underlyingToken": null,
+          "erc4626ReviewData": null,
+          "__typename": "GqlPoolTokenDetail"
+        }
+      ],
+      "__typename": "GqlPoolWeighted"
+    }
+  }
+}
