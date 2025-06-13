@@ -40,6 +40,18 @@
     "with dynamic swap fee": {
       "status": 200,
       "file": "data/getPool_with_dynamic_swap_fee.json"
+    },
+    "with lbp before": {
+      "status": 200,
+      "file": "data/getPool_with_lbp_before.json"
+    },
+    "with lbp running": {
+      "status": 200,
+      "file": "data/getPool_with_lbp_running.json"
+    },
+    "with lbp after": {
+      "status": 200,
+      "file": "data/getPool_with_lbp_after.json"
     }
   }
 }
