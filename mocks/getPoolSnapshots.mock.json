@@ -7,8 +7,7 @@
       "Content-Type": "application/json"
     },
     "body": {
-      "operationName": "GetPoolSnapshots",
-      "query": "(.*)query GetPoolSnapshots(.*)"
+      "operationName": "GetPoolSnapshots"
     }
   },
   "responses": {

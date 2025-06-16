@@ -7,8 +7,7 @@
       "Content-Type": "application/json"
     },
     "body": {
-      "operationName": "GetTokenPrices",
-      "query": "(.*)query GetTokenPrices(.*)"
+      "operationName": "GetTokenPrices"
     }
   },
   "responses": {
